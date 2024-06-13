@@ -143,7 +143,6 @@ class MainActivity : AppCompatActivity() {
                     binding.imageView.load(bitmap) {
                         crossfade(true)
                         crossfade(1000)
-                        transformations(CircleCropTransformation())
                     }
                 }
 
